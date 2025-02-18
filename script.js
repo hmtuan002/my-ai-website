@@ -4,7 +4,7 @@ async function sendMessage() {
 
     // Gọi API AI (ví dụ: Hugging Face hoặc OpenAI)
     const apiUrl = 'https://api-inference.huggingface.co/models/gpt2';
-    const apiKey = 'your-api-key'; // Thay bằng API key của bạn
+    const apiKey = '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'; // Thay bằng API key của bạn
 
     const response = await fetch(apiUrl, {
         method: 'POST',
